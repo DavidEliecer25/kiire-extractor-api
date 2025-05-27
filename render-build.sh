@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-# Instala Playwright y sus dependencias del sistema operativo para Chromium
-npx playwright install chromium --with-deps
+# Solo instala los navegadores de playwright con las dependencias necesarias
+playwright install chromium --with-deps
