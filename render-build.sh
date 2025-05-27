@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-playwright install chromium
+
+# Instala playwright navegadores y muestra estado
+npx playwright install chromium --with-deps
